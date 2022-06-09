@@ -1,2 +1,3 @@
 include README.rst
-recursive-include ckanext/dreddx_theme/public/*
+recursive-include ckanext/dreddx_theme/public *
+recursive-include ckanext/dreddx_theme/templates *

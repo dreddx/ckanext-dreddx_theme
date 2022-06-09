@@ -1,0 +1,49 @@
+body {
+    background: #fff;
+}
+
+.account-masthead {
+    background: #fff;
+  }
+
+.account-masthead .account ul li a {
+    color: #333;
+}
+
+.masthead {
+    background: #fff;
+}
+
+.masthead .nav > li > a,
+.masthead .nav > li > a:focus,
+.masthead .nav > li > a:hover,
+.masthead .nav > .active > a,
+.masthead .nav > .active > a:hover,
+.masthead .nav > .active > a:focus {
+  color: #000;
+  text-shadow: none;
+}
+
+.homepage .module-search {
+    color: #333;
+}
+
+.homepage .module-search .module-content {
+    background-color: #fff;
+}
+
+.homepage .module-search .tags {
+    background-color: #000;
+}
+
+.site-footer {
+    background: #fff;
+}
+
+.site-footer, .site-footer label, .site-footer small {
+    color: #333;
+}
+
+.site-footer a {
+    color: #333;
+}
