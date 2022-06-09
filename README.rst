@@ -5,6 +5,12 @@ ckanext-dreddx_theme
 A plugin with custom theme elements
 
 ------------
+To-do
+------------
+
+* Probably better way to add custom styles to default `main.css` - currently just moved default styles to `dreddx.css`
+
+------------
 Installation
 ------------
 

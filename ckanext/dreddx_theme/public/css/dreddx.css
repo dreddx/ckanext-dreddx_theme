@@ -3191,27 +3191,27 @@ html {
   }
   .btn-primary {
     color: #fff;
-    background-color: #206b82;
-    border-color: #1b5a6e;
+    background-color: #333;
+    border-color: #333;
   }
   .btn-primary:focus,
   .btn-primary.focus {
     color: #fff;
-    background-color: #164959;
-    border-color: #020607;
+    background-color: #000;
+    border-color: #000;
   }
   .btn-primary:hover {
     color: #fff;
-    background-color: #164959;
-    border-color: #0f323c;
+    background-color: #000;
+    border-color: #000;
   }
   .btn-primary:active,
   .btn-primary.active,
   .open > .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #164959;
+    background-color: #000;
     background-image: none;
-    border-color: #0f323c;
+    border-color: #000;
   }
   .btn-primary:active:hover,
   .btn-primary.active:hover,
@@ -3223,8 +3223,8 @@ html {
   .btn-primary.active.focus,
   .open > .dropdown-toggle.btn-primary.focus {
     color: #fff;
-    background-color: #0f323c;
-    border-color: #020607;
+    background-color: #000;
+    border-color: #000;
   }
   .btn-primary.disabled:hover,
   .btn-primary[disabled]:hover,
@@ -3239,7 +3239,7 @@ html {
     border-color: #1b5a6e;
   }
   .btn-primary .badge {
-    color: #206b82;
+    color: #333;
     background-color: #fff;
   }
   .btn-success {
@@ -9735,6 +9735,7 @@ html {
     margin: 5px 10px 0 0;
   }
   .homepage .module-search .tags h3 {
+    color: #fff;
     font-size: 14px;
     line-height: 1.42857143;
     padding: 2px 8px;
@@ -9846,7 +9847,6 @@ html {
   .account-masthead .account ul li {
     display: block;
     float: left;
-    border-left: 1px solid #00232e;
   }
   .account-masthead .account ul li a {
     display: block;
@@ -9867,7 +9867,7 @@ html {
   }
   .account-masthead .account ul li a:hover {
     color: #d9e7eb;
-    background-color: #00232e;
+    background-color: #000;
     text-decoration: none;
   }
   .account-masthead .account ul li a.sub {
@@ -9972,7 +9972,8 @@ html {
   .masthead .navigation .nav-pills li a:hover,
   .masthead .navigation .nav-pills li a:focus,
   .masthead .navigation .nav-pills li.active a {
-    background-color: #003647;
+    background-color: #000;
+    color: #fff;
   }
   .masthead .nav > li > a,
   .masthead .nav > li > a:focus,
@@ -10201,7 +10202,7 @@ html {
     width: 68px;
     height: 21px;
     margin-top: 2px;
-    background: url("../../base/images/ckan-logo-footer.png") no-repeat top left;
+    background: #000 url("../../base/images/ckan-logo-footer.png") no-repeat top left;
     text-indent: -900em;
   }
   .lang-select:before,
@@ -10791,7 +10792,7 @@ html {
     z-index: 0;
   }
   body {
-    background: #005d7a url("../../base/images/bg.png");
+    background-color: #fff;
   }
   [hidden] {
     display: none;
