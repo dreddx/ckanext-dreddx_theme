@@ -87,10 +87,10 @@
         <ul class="nav nav-pills">
             {% block header_site_navigation_tabs %}
 		{{ h.build_nav_main(
-		    ('home.about', _('About')) ) }}
+		    ('home.about', _('About')) ) }},
 		    ('dataset.search', _('Datasets')),
 		    ('organization.index', _('Organizations')),
-		    ('group.index', _('Groups')),
+		    ('group.index', _('Groups'))
 	    {% endblock %}
             <!-- Temp: move to config file -->
             <li>
