@@ -9926,7 +9926,7 @@ html {
     position: relative;
   }
   .masthead a {
-    color: #fff;
+    color: #333;
   }
   .masthead hgroup h1,
   .masthead hgroup h2 {
@@ -9935,9 +9935,10 @@ html {
     line-height: 1.5;
   }
   .masthead hgroup h1 {
+    float: right;
     font-weight: 900;
     letter-spacing: -1px;
-    margin: 3px 0;
+    margin: 3px 6px;
   }
   .masthead hgroup h2 {
     position: absolute;
