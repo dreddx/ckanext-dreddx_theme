@@ -71,9 +71,8 @@
       </button>
     </div>
     <hgroup class="{{ g.header_class }} navbar-left">
-      {% block header_logo %} {% if g.site_logo %}
+      {% block header_logo %}
       <a class="logo" href="{{ h.url_for('home.index') }}"><img src="{{ h.url_for_static_or_external(g.site_logo) }}" alt="{{ g.site_title }}" title="{{ g.site_title }}" /></a>
-      {% else %}
       <h1>
         <a href="{{ h.url_for('home.index') }}">{{ g.site_title }}</a>
       </h1>
@@ -94,8 +93,12 @@
 	    {% endblock %}
             <!-- Temp: move to config file -->
             <li>
-                <a href="/dataviz-gallery/">Visualisation</a>
+                <a href="/dataviz-gallery">Visualisation</a>
+            </li>
+            <li>
                 <a href="#">Analytics</a>
+            </li>
+            <li>
                 <a href="#">Compliance</a>
             </li>
         </ul>
