@@ -5,17 +5,26 @@
   <div>
       <h1 class="page-heading">Welcome to DDX</h1>
       <p>
-        Welcome to the DDX website
+        We democratise data and intelligence. We enable a value exchange for 
+        data in a way that transforms your organisation.
+
+        In an increasingly competitive world, businesses need intelligence, 
+        purpose, personalities, partner ecosystems and evolutionary desires. 
+        The abilities of businesses to capture diverse intelligence and 
+        deliver competitive advantage via qualities within appropriate data 
+        will be the difference between extinction, survival, evolution, and 
+        relevance. The current critical challenge for businesses lies at the 
+        intersection of ethics, data, regulation, sustainability, intelligence, 
+        innovation and purpose. We aim to solve many of these problems.
       </p>
   </div>
 
-  {% block home_image %}
+  {% block home_video %}
     <section class="featured media-overlay hidden-xs">
-      <h2 class="media-heading">{% block home_image_caption %}{{ _("This is a featured section") }}{% endblock %}</h2>
       {% block home_image_content %}
-        <a class="media-image" href="#">
-          <img class="img-responsive" src="{{ h.url_for_static('/base/images/placeholder-420x220.png') }}" alt="Placeholder" width="420" height="220" />
-        </a>
+        <iframe width="420" height="315" 
+          src="https://www.youtube.com/watch?v=302ZA1miGzc?controls=0">
+        </iframe> 
       {% endblock %}
     </section>
   {% endblock %}
