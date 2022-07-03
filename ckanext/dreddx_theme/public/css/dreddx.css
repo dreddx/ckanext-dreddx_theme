@@ -8254,6 +8254,7 @@ html {
     line-height: 1;
   }
   .dataset-item {
+    display: flow-root;
     border-bottom: 1px dotted #ddd;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -9795,7 +9796,6 @@ html {
     }
     .homepage.layout-1 .row1 .col2 {
       position: absolute;
-      bottom: 0;
       right: 0;
     }
     .homepage.layout-1 .row1 .col2 .module-search {
