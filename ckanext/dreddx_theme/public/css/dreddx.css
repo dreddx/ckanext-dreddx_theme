@@ -1582,8 +1582,7 @@ html {
   }
   @media (min-width: 1200px) {
     .container {
-      /* magic number! */
-      width: 1370px;
+      width: 1170px;
     }
   }
   .container-fluid {
@@ -10889,10 +10888,10 @@ html {
   .reduced-padding {
     padding: 3px 5px;
   }
-/* Hacks! */
-@media (min-width: 1200px) {
-  .data-viz h1 {
-    /* Magic number! */
-    margin-left: 57px;
+  /* Hacks! */
+  @media (min-width: 1200px) {
+    .data-viz h1 {
+      /* Magic number! */
+      margin-left: 57px;
+    }
   }
-}
