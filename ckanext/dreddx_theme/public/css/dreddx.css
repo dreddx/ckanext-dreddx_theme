@@ -10888,10 +10888,3 @@ html {
   .reduced-padding {
     padding: 3px 5px;
   }
-  /* Hacks! */
-  @media (min-width: 1200px) {
-    .data-viz h1 {
-      /* Magic number! */
-      margin-left: 57px;
-    }
-  }
