@@ -68,6 +68,14 @@
       {% block user_info %}
       <div class="info">
         <dl>
+          <dt>Role</dt>
+          {% if user.name == 'admin' %}
+            <dd>Admin</dd>
+          {% else %}
+            <dd>Editor</dd>
+          {% endif %}
+        </dl>
+        <dl>
           {% if user.name.startswith('http://') or user.name.startswith('https://') %}
             <dt>{{ _('Open ID') }}</dt>
             <dd>{{ user.name|urlize(25) }}{# Be great if this just showed the domain #}</dd>
