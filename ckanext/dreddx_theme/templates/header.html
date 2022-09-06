@@ -16,7 +16,6 @@
           <a href="{{ h.url_for('user.read', id=c.userobj.name) }}" class="image" title="{{ _('View profile') }}">
                   {{ h.user_image((c.user if c and c.user else ''), size=22) }}
                   <span class="username">{{ c.userobj.display_name }}</span>
-                  <span class="username">{{ c.userobj.display_name }}</span>
                 </a>
         </li>
         {% set new_activities = h.new_activities() %}
